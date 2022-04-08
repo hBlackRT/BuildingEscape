@@ -20,9 +20,6 @@ void UChallengeComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// FString Log = TEXT("Hello!");
-
-	// UE_LOG(LogTemp, Warning, TEXT("%s"), *Log);
 
 	FString ObjectName = GetOwner()->GetName();
 
